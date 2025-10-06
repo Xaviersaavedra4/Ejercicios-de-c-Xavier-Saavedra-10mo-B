@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Definir la variable N1 como entero
+    int N1;
+
+    // Solicitar al usuario que ingrese un número
+    cout << "Ingresar el numero: ";
+    cin >> N1;
+
+    // Verificar si el número es positivo o negativo
+    if (N1 > 0) {
+        cout << "El numero es positivo" << endl;
+    } else {
+        cout << "El numero es negativo" << endl;
+    }
+
+    return 0;
+}
